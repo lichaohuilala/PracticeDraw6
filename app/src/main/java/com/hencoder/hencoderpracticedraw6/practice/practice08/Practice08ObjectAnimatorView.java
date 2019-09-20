@@ -32,6 +32,15 @@ public class Practice08ObjectAnimatorView extends View {
         super(context, attrs, defStyleAttr);
     }
 
+    public float getProgress() {
+        return progress;
+    }
+
+    public void setProgress(float progress) {
+        this.progress = progress;
+        invalidate();
+    }
+
     {
         paint.setTextSize(dpToPixel(40));
         paint.setTextAlign(Paint.Align.CENTER);

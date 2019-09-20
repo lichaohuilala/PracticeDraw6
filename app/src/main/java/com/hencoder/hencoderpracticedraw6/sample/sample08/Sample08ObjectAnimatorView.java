@@ -62,5 +62,7 @@ public class Sample08ObjectAnimatorView extends View {
         paint.setColor(Color.WHITE);
         paint.setStyle(Paint.Style.FILL);
         canvas.drawText((int) progress + "%", centerX, centerY - (paint.ascent() + paint.descent()) / 2, paint);
+
+
     }
 }

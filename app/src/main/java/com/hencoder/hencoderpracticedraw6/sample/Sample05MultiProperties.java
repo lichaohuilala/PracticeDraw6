@@ -47,6 +47,7 @@ public class Sample05MultiProperties extends ConstraintLayout {
                             .scaleX(1)
                             .scaleY(1)
                             .alpha(1);
+
                 } else {
                     imageView.animate()
                             .translationX(0)
